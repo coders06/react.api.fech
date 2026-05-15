@@ -184,4 +184,52 @@
 }
 
 
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.foodCard {
+  transition: all 0.3s ease;
+}
+
+.foodCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #005ce6;
+  transform: scale(1.05);
+}
+
+.recipeBtn {
+  transition: all 0.3s ease;
+}
+
+.recipeBtn:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
+
+img {
+  transition: 0.4s;
+}
+
+.card:hover img {
+  transform: rotate(3deg) scale(1.05);
+}
+
+.foodCard:hover img {
+  transform: scale(1.08);
+}
+
 
